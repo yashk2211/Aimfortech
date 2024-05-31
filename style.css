@@ -1,0 +1,1179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* border: 3px solid black; */
+    /* border: 3px solid black; */
+
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    
+   
+}
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+}
+
+.logo-list ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo-list ul li{
+    color: white;
+    padding-inline: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.logo-btn{
+    padding-left: 30px;
+}
+
+.logo-btn button{
+    width: 110px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 7px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 3px 2px 14px 0px rgba(161,158,161,1);
+
+
+}
+
+/* nav end */
+
+.heading-txt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assests/banner_bg.png);
+    background-size: cover;
+    clip-path: ellipse(85% 100% at center top);
+    padding-top: 90px;
+    padding-bottom: 100px;/
+    
+    
+   
+}
+.left-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 20px;
+    padding-inline: 20px;
+}
+
+.left-heading h1{
+    font-size: 53px;
+    font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+        padding-block: 10px;
+        
+}
+
+.left-heading h1 span{
+    color: #f05742;
+}
+
+.left-heading h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #afafaf;
+    margin-bottom: 20px;
+}
+
+
+
+.left-heading span button{
+    width: 160px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: #3f59f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-block: 20px;
+
+    
+}
+
+
+.right-img{
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+    
+}
+.right-img img{
+    width: 80%;
+    height: 80%;
+
+    padding: 20px;
+}
+/* heading part end */
+
+.centre{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-block: 40px;
+   
+}
+
+.centre h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+.centre h2 span{
+    color: #f05742;
+}
+
+/* connect card */
+  .connectcard{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    margin-block: 20px;
+    padding: 5px;
+  }
+
+  .connectcard1{
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(238, 238, 238);
+    background: black;
+    border-radius: 8px;
+    padding: 35px 24px;
+    transition: all 0.4s ease 0s;
+    min-height: 380px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .connectcard1 img{
+    width: 150px;
+    height: 150px;
+    margin-block: 5px;
+
+    
+  }
+
+  .connectcard1 h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .connectcard1 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #717275;
+    margin-top: 10px;
+  }
+
+
+  .connectcard2{
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(238, 238, 238);
+    background: black;
+    border-radius: 8px;
+    padding: 35px 24px;
+    transition: all 0.4s ease 0s;
+    min-height: 380px;
+    text-align: left;
+    position: relative;
+    top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .connectcard2 img{
+    width: 150px;
+    height: 150px;
+    margin-block: 5px;
+
+    
+  }
+
+  .connectcard2 h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .connectcard2 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #717275;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .connectcard3{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    top: 8rem;
+    border: 1px solid rgb(238, 238, 238);
+    background: black;
+    border-radius: 8px;
+    padding: 35px 24px;
+    transition: all 0.4s ease 0s;
+    min-height: 380px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .connectcard3 img{
+    width: 150px;
+    height: 150px;
+    margin-block: 5px;
+
+    
+  }
+
+  .connectcard3 h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .connectcard3 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #717275;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .connectcard4{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    top: 3rem;
+    border: 1px solid rgb(238, 238, 238);
+    background: black;
+    border-radius: 8px;
+    padding: 35px 24px;
+    transition: all 0.4s ease 0s;
+    min-height: 380px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .connectcard4 img{
+    width: 150px;
+    height: 150px;
+    margin-block: 5px;
+
+    
+  }
+
+  .connectcard4 h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .connectcard4 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #717275;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .connectcard5{
+    width: 230px;
+    height: 200px;
+    border: 1px solid rgb(238, 238, 238);
+    background: black;
+    border-radius: 8px;
+    padding: 35px 24px;
+    transition: all 0.4s ease 0s;
+    min-height: 380px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .connectcard5 img{
+    width: 150px;
+    height: 150px;
+    margin-block: 5px;
+
+    
+  }
+
+  .connectcard5 h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .connectcard5 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #717275;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+
+  /* card section end */
+
+  .mainpart{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+  }
+
+  .img{
+    width: 50%;
+    height: auto;
+   
+    padding: 10px;
+  }
+
+  .textpart{
+    width: 50%;
+    height: auto;
+  }
+
+  .textpart h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-block: 10px;
+  }
+
+  .textpart h2 span{
+    color: #f05742;
+  }
+
+  .textpart p{
+    font-size: 14px;
+    margin-block: 10px;
+    padding: 10px;
+    font-weight: 500;
+    color: #7c7d8d;
+  }
+
+  .textpart button{
+    padding: 13px;
+    background-color: #f05742;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .mainpart2{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+
+   
+
+  }
+
+  .img2 img{
+    height: 50%;
+  }
+
+  /* mainpart */
+
+  .techs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .techincal{
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    background-color: black;
+    box-shadow: 0px -5px 8px 1px rgba(125,119,125,1);
+
+    
+  }
+
+  .techtext h2{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-block: 20px;
+    
+  }
+  .techtext h2 span{
+    color: #f05742;
+    
+  }
+
+  .techtext p{
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .techicon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-block: 30px;
+  }
+
+  .icons1{
+    padding: 25px 25px 25px 25px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    /* position: relative; */
+    box-shadow: 0px 0px 9px 5px rgba(125,119,125,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .icons1 i{
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+  /* news */
+
+  .news{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* background-color: #a3d4ff; */
+    background: linear-gradient(to bottom right, transparent 50%, black 50%);
+    margin-top: 40px;
+    }
+
+    .newsimg {
+      width: 50%;
+      height: auto;
+      padding: 20px;
+    }
+
+    .newsimg img{
+      height: 500px;
+      width: 500px;
+      margin-left: 10px;
+    }
+
+    .newsbox{
+      width: 35%;
+      height: 370px;
+      background-color: rgb(254, 255, 248);
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .newsbox h4{
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .newsbox p{
+      font-size: 15px;
+      font-weight: 500;
+      color: #7c7d8d;
+      margin-block: 20px;
+      line-height: 30px;
+    }
+
+    .newsbox input{
+      width: 250px;
+      height: 50px;
+      background: transparent;
+      border: 1px solid #7c7d8d;
+      text-align: center;
+      color: #7c7d8d;
+      margin: 20px;
+      border-radius: 10px;
+      font-size: 15px;
+      
+    }
+
+   
+    .newsbox button{
+      width: 80px;
+      height: 40px;
+      background-color: #f05742;
+      border: none;
+      color: white;
+      
+    }
+
+    .newsbox button i{
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+     /* footer strat */
+
+
+     .footer{
+      width: 100%;
+      height: auto;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .footerlist{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    
+
+    .footerlist ul{
+      list-style: none;
+      display: flex;
+    }
+
+    .footerlist ul li{
+      font-size: 17px;
+      font-weight: 600;
+      color: white;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .footerlist hr{
+      width: 70%;
+      height: 2px;
+      border: 1px solid white;
+      margin-block: 30px;
+      background-color: white;
+      align-items: center;
+
+    }
+
+    .last{
+      width: 100%;
+      height: auto;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 40px;
+    }
+
+    .lastone p{
+      
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+      margin-left: 70px;
+    }
+
+    .lasttwo p{
+      
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+      margin-right: 70px;
+
+      
+
+    }
+
+    /* display none */
+    .menu{
+      display: none;
+  }
+
+  .connect-card{
+    display: none;
+  }
+
+
+
+
+
+    @media (max-width: 480px) {
+      .main-container{
+          width: 100%;
+          height: auto;
+      }
+
+      nav{
+        width: 100%;
+        height: 60px;
+      }
+
+      .logo-list{
+        display: none;
+      }
+      .menu{
+        display: inline;
+        
+        
+    }
+
+    .menu i{
+      font-size: 20px;
+      color: white;
+
+    }
+
+    .heading-txt{
+      width: 100%;
+      height: auto;
+      flex-direction: column-reverse;
+      clip-path: ellipse(98% 100% at center top);
+    }
+
+    .left-heading{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+    .left-heading h1{
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .left-heading h5{
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    .right-img{
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+    }
+
+    .connectcard{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+    }
+
+    .connectcard2{
+      
+      position: relative;
+    top: 0rem;
+    margin-block: 10px;
+    
+    }
+    .connectcard3{
+      position: unset;
+    top: 0rem;
+    }
+    .connectcard4{
+      position: unset;
+    top: 0rem;
+    margin-block: 10px;
+    }
+    .connectcard5{
+      position: unset;
+    top: 0rem;
+    }
+    .mainpart{
+      width: 100%;
+      flex-direction: column;
+    }
+    .img{
+      width: 100%;
+      display: flex;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .img img{
+      width: 350px;
+    }
+    .textpart{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mainpart2{
+      width: 100%;
+      flex-direction: column-reverse;
+    }
+    .techincal{
+      width: 90%;
+    }
+    .icons1{
+      width: 70px;
+    height: 70px;
+    box-shadow: 0px 0px 4px 3px rgba(125, 119, 125, 1);
+    }
+    .icons1 i{
+      font-size: 32px;
+    }
+    .img2{
+      width: 100%;
+    }
+
+    .img2 img{
+      width: 400px;
+    }
+    .news{
+      width: 100%;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .newsimg{
+      width: 100%;
+      padding: 2px;
+    }
+    .newsimg img{
+      width: 300px;
+      height: 300px;
+      margin-left: 90px;
+    }
+    .newsbox{
+      width: 70%;
+      height: 250px;
+    }
+    .newsbox h4{
+      font-size: 20px;
+    }
+    .newsbox p{
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    .newsbox p br{
+      display: none;
+    }
+    .newsbox input{
+      margin: 10px;
+      height: 30px;
+    }
+    .footerlist{
+      align-items: start;
+    }
+
+    .footerlist ul{
+      flex-direction: column;
+      
+    }
+
+    .footerlist ul li{
+      font-size: 13px;
+    }
+
+    .footerlist hr{
+      width: 100%;
+    }
+    .last{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     flex-direction: column;
+    }
+    .lastone{
+      width: 100%;
+    }
+    .lastone p{
+      margin-left: 0px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .lasttwo{
+      width: 100%;
+    }
+    .lasttwo p{
+      margin-left: 0px;
+      padding-left: 50px;
+      text-align: center;
+
+    }
+
+    .connect-card{
+      display: none;
+    }
+    }  
+
+
+    /* @media (max-width:768px) {
+      .main-container{
+          width: 100%;
+          height: auto;
+      }
+
+      nav{
+        width: 100%;
+        height: 60px;
+      }
+
+
+      .logo-btn{
+        padding-left: 300px;
+      }
+
+      .logo-list{
+        display: none;
+      }
+      .menu{
+        
+        display: inline;
+        
+        
+    }
+
+    .menu i{
+      font-size: 20px;
+      color: white;
+
+    }
+
+    .left-heading h1{
+      font-size: 24px;
+    }
+
+    .left-heading h5{
+      font-size: 12px;
+    }
+
+    .left-heading span button {
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
+   
+  }
+
+  .right-img img {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+}
+
+.mainpart{
+  width: 100%;
+  flex-direction: column;
+}
+
+.img{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img img{
+  width: 350px;
+}
+.textpart{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainpart2{
+  width: 100%;
+  flex-direction: column-reverse;
+}
+.techincal{
+  width: 90%;
+}
+.icons1{
+  width: 70px;
+height: 70px;
+box-shadow: 0px 0px 4px 3px rgba(125, 119, 125, 1);
+}
+.icons1 i{
+  font-size: 32px;
+}
+.img2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.img2 img{
+  width: 400px;
+}
+.news{
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.newsimg{
+  width: 100%;
+  padding: 2px;
+}
+.newsimg img{
+  width: 500px;
+  height: 450px;
+  margin-left: 150px;
+}
+.newsbox{
+  width: 70%;
+  height: 250px;
+}
+.newsbox h4{
+  font-size: 20px;
+}
+.newsbox p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.newsbox p br{
+  display: none;
+}
+.newsbox input{
+  margin: 10px;
+  height: 30px;
+}
+.footerlist{
+  align-items: start;
+}
+
+.footerlist ul{
+  flex-direction: column;
+  
+}
+
+.footerlist ul li{
+  font-size: 13px;
+}
+
+.footerlist hr{
+  width: 100%;
+}
+.last{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: column;
+}
+.lastone{
+  width: 100%;
+}
+.lastone p{
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.lasttwo{
+  width: 100%;
+}
+.lasttwo p{
+  margin-left: 0px;
+  padding-left: 50px;
+  text-align: center;
+
+}
+
+.connectcard4{
+  display: none;
+}
+
+.connectcard5{
+  display: none;
+}
+
+.connectcard6{
+  width: 230px;
+  height: 200px;
+  border: 1px solid rgb(238, 238, 238);
+  background: black;
+  border-radius: 8px;
+  padding: 35px 24px;
+  transition: all 0.4s ease 0s;
+  min-height: 380px;
+  text-align: left;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+
+}
+.connectcard6 img{
+  width: 150px;
+  height: 150px;
+  margin-block: 5px;
+
+  
+}
+
+.connectcard6 h6{
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  
+}
+.connectcard6 p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #717275;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.connect-card{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+
+.connectcard7{
+  width: 230px;
+  height: 200px;
+  border: 1px solid rgb(238, 238, 238);
+  background: black;
+  border-radius: 8px;
+  padding: 35px 24px;
+  transition: all 0.4s ease 0s;
+  min-height: 380px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 3.4rem;
+  z-index: 1;
+
+}
+.connectcard7 img{
+  width: 150px;
+  height: 150px;
+  margin-block: 5px;
+
+  
+}
+
+.connectcard7 h6{
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  
+}
+.connectcard7 p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #717275;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+    }
+
+
+  */
